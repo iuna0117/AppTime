@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">AppTime</string>
+
+    <string name="insert_record">Добавить запись</string>
+    <string name="insert_category">Добавить категорию</string>
+    <string name="cancel">Отмена</string>
+
+    <!--Добавление категории-->
+    <string name="categoty_name"> Название </string>
+    <string name="choose_icon">Установить иконку</string>
+    <string name="save">Сохранить</string>
+    <string name="insert_meet_title">Создание категории</string>
+
+    <string name="update_meet_title">Редактирование категории</string>
+    <string name="choose_image">Выберите изображение</string>
+
+    <string-array name="icons">
+        <item>R.drawable.cook</item>
+        <item>R.drawable.home</item>
+        <item>R.drawable.clean</item>
+        <item>R.drawable.sleep</item>
+    </string-array>
+
+    <!--Добавление записи-->
+    <string name="record_time_start"> Время начала </string>
+    <string name="record_time_end">Время окончания</string>
+    <string name="record_description">Описание</string>
+    <string name="record_duration">Продолжительность</string>
+    <string name="record_category">Категория</string>
+    <string name="insert_record_title">Создание записи</string>
+    <string name="btn_5min">5 мин</string>
+    <string name="btn_15min">15 мин</string>
+    <string name="btn_1hour">1 ч</string>
+    <string name="btn_2hour">2 ч</string>
+
+
+    <string name="not_check">Не выбрано</string>
+    <string name="choose_category">Выберите категорию</string>
+    <string name="error_time">Время начало должно быть меньше времени окончания</string>
+    <string name="start_more_end">Время окончания меньше времени начала. Будет осуществлен перевод даты окончания на следующий день. Вы действительно хотите сохранить запись? </string>
+    <string name="dialog_title_save">Подтверждение сохранения</string>
+    <string name="error_empty_duration">Не задана продолжительность</string>
+    <string name="error_empty_category">Не выбрана категория</string>
+
+    <string-array name="make_photo">
+        <item name="">Сделать снимок</item>
+        <item>Загрузить из галереи</item>
+    </string-array>
+    <string name="choose_camera">Сделать снимок</string>
+    <string name="choose_gallery">Загрузить из галереи</string>
+    <string name="photos">Фотографии</string>
+    <string name="photos_description">Введите описание</string>
+    <string name="not_description">Нет описания</string>
+
+    <!--Для контекстного меню-->
+    <string name="context_menu_edit">Редактировать</string>
+    <string name="context_menu_delete">Удалить</string>
+
+    <!--Диалог подтвержения удаления категории-->
+    <string name="dialog_message_category">Вы действительно хотите удалить выбранную категорию?</string>
+    <string name="dialog_title_category">Удаление категории</string>
+    <string name="dialog_btn_delete">Удалить</string>
+    <string name="dialog_btn_cancel">Отмена</string>
+    <string name="dialog_btn_ok">OK</string>
+    <string name="error_delete_category">Невозможно удалить категорию! Имеются записи, относящиеся к этой категории</string>
+    <string name="error_empty_field">Заполните название и выберите изображение</string>
+
+    <!--Повторная вставка категории-->
+    <string name="error_insert_same_category">Невозможно добавить категорию! Категория с таким названием уже существует.</string>
+    <string name="error_update_same_category">Невозможно изменить категорию! Категория с таким названием уже существует.</string>
+    <string name="minutes">мин</string>
+    <string name="hours">ч</string>
+
+    <!--Экран статистики-->
+    <string name="title_statistics">Статистика</string>
+    <string name="error_date">Дата начала должно быть меньше даты окончания</string>
+
+    <string name="first_stat">Самые частые занятия</string>
+    <string name="second_stat">Самое большое суммарное время по категориям</string>
+    <string name="third_stat">Суммарное время по выбранным категориям</string>
+    <string name="forth_stat">Круговая диаграмма времени по всем категориям</string>
+    <string name="view_statistics">Просмотреть</string>
+    <string name="not_exist_record">За выбранный период записи отсутствуют</string>
+
+    <!--Нижнее меню -->
+    <string name="menu_records">Записи</string>
+    <string name="menu_categories">Категории</string>
+    <string name="menu_statistics">Статистика</string>
+
+    <string name="title_categories">Категории</string>
+    <string name="title_records">Записи</string>
+
+    <string name="choose_categories">Выберите категории</string>
+    <string name="next">Продолжить</string>
+
+    <!-- -->
+    <string name="good_cat">Сатегория успешно создана</string>
+    <string name="fromphoto">Сделать снимок</string>
+    <string name="fromgalery">Добавить из галереи</string>
+</resources>

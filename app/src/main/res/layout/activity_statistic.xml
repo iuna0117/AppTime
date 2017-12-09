@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.apptime.StatisticActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgBtnCalendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="#f3f3f3"
+            android:onClick="onBtnImgCalendarClick" />
+
+        <TextView
+            android:id="@+id/tvStartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.73"
+            android:clickable="true"
+            android:onClick="onClickStartDate"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvEndDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.73"
+            android:clickable="true"
+            android:onClick="onClickEndDate"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+
+    <RadioGroup
+        android:id="@+id/radio_group_stat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1">
+
+        <RadioButton
+            android:id="@+id/rBtnFirstStat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:checked="true"
+            android:text="@string/first_stat"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rBtnSecondStat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/second_stat"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rBtnThirdStat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="0"
+            android:text="@string/third_stat"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rBtnFourthStat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/forth_stat"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="0.6"
+            android:background="@color/colorRed"
+            android:onClick="back"
+            android:text="Отмена"
+            android:textColor="@color/colorWhite" />
+
+        <Button
+            android:id="@+id/btnInsert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@color/colorGreen"
+            android:onClick="onClickViewStatistics"
+            android:text="@string/save"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+
+</LinearLayout>
